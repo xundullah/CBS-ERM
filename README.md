@@ -84,7 +84,7 @@ AIoT & Smart Energy Systems Researcher
 Sydney, Australia
 
 ### Under Supervision of 
-** Prof. Dr. Jahangir Hossain **
+**Prof. Dr. Jahangir Hossain**
 
 ---
 

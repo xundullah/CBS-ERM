@@ -8,10 +8,18 @@ This system takes a proactive approach to utilizing and redesigning the backup p
 
 ## ⚙️ Core Modules and Components
 
-### 1. Intelligent Sensor & Control (ISC)
-- Captures real-time power consumption and operational metrics from CBSs.
-- Enables local decision-making for power optimization.
-- Communicates with cloud via **MQTT** or **Modbus** as needed.
+### ⚡ 1. Intelligent Sensor & Control (`ISC`)
+
+<img src="Figures/ISC.jpeg" width="300" alt="ISC Hardware Setup">
+
+*📸 Figure: An example of `ISC` hardware inside the CBS power cabinet with real-time monitoring modules.*
+
+The `ISC` unit acts as the intelligent edge layer responsible for local energy control in cellular base stations. It performs the following key roles:
+
+- 🧠 **Monitoring** — Read real-time power related data such as `voltage`, `current`, and `power consumption`.  
+- 🔄 **Optimization** — Applies on-device logic for local energy efficiency and load balancing.  
+- 🌐 **Communication** — Sends and receives data and control signals via `MQTT` or `Modbus` protocols to/from the cloud.
+
 
 ### 2. Secure Broker Layer
 - Built on **Mosquitto** with **TLS encryption**.

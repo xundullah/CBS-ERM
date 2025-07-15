@@ -70,10 +70,10 @@ The `ISC` unit acts as the intelligent edge layer responsible for local energy c
 
 ## 🚀 Roadmap
 
-🔲 Enable Virtual Power Plant (VPP) coordination among CBSs
-🔲 Add battery health and renewable energy generation monitoring
-🔲 Support emergency dispatch to nearby Critical Infrastructures (CIs)
-🔲 Add mobile app interface (React Native or Flutter)
+- 🔲 Enable Virtual Power Plant (VPP) coordination among CBSs
+- 🔲 Add battery health and renewable energy generation monitoring
+- 🔲 Support emergency dispatch to nearby Critical Infrastructures (CIs)
+- 🔲 Add mobile app interface (React Native or Flutter)
 
 ---
 

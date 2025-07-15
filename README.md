@@ -20,10 +20,22 @@ The `ISC` unit acts as the intelligent edge layer responsible for local energy c
 - 🔄 **Optimization** — Applies on-device logic for local energy efficiency and load balancing.  
 - 🌐 **Communication** — Sends and receives data and control signals via `MQTT` or `Modbus` protocols to/from the cloud.
 
+These functions enable distributed energy regulation for improved resilience across CBS networks.
 
-### 2. Secure Broker Layer
-- Built on **Mosquitto** with **TLS encryption**.
-- Handles publish-subscribe messaging between ISCs and the cloud.
+### 🔐 2. Secure Broker Layer (`MQTT` Communication Backbone)
+
+<img src="Figures/MQTT.jpg" width="500" alt="MQTT Broker Log">
+
+*📸 Figure: A client successfully connected to the centralized MQTT broker `Centralized-AIoT@mqtts://` with TLS support.*
+
+The **Secure Broker Layer** serves as the middleware for efficient and encrypted data flow between `ISC` devices and the cloud backend. It includes:
+
+- 🧩 **Protocol** — Built using the lightweight `MQTT` protocol for scalable, publish-subscribe messaging.
+- 🔐 **Security** — Uses `Mosquitto` broker with built-in `TLS` encryption to ensure data confidentiality and broker authentication.
+- 🔄 **Integration** — Seamlessly connects edge devices (`ISC`) with cloud services (e.g., `Node-RED`, `ML backend`) for real-time data exchange and control signal routing.
+
+This layer enables **low-latency**, **secure**, and **scalable** communication architecture essential for distributed energy regulation.
+
 
 ### 3. Cloud Operations
 - Processes incoming data streams.

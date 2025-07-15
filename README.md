@@ -4,6 +4,43 @@
 
 This system takes a proactive approach to utilizing and redesigning the backup power systems of **Cellular Base Stations (CBSs)**—transforming them into **distributed, intelligent energy hubs** that support **power resilience** in smart cities. The architecture integrates real-time sensing, cloud intelligence, and AI-driven decision-making to optimize energy usage, detect anomalies, and dispatch backup power intelligently across critical infrastructures.
 
+
+---
+
+### 🤝 What We Expect from CBS Operators
+
+To enable intelligent energy management and resilience enhancement, we require only one key input from CBS operators:
+
+- 📊 **Power Log Data** — Specifically, the `total electrical power consumption` from each CBS tower.  
+  This data will be acquired through the deployed `ISC` (Intelligent Sensor & Control) unit.
+
+---
+
+### 🎁 What We Provide in Return
+
+With just the power consumption data, our system will deliver the following integrated services:
+
+- 🧠 **AI-Based Optimization Suggestions**  
+  - Load shifting strategies during peak hours  
+  - Smart scheduling of backup systems  
+  - Battery charge/discharge planning  
+  - Energy-saving recommendations tailored to tower load profiles  
+
+- 📡 **Real-Time Monitoring**  
+  - Live dashboards displaying power usage, anomalies, and device health  
+  - Historical data analytics and trend reports  
+
+- 🔄 **Remote Control & Automation**  
+  - Secure dispatch of control signals back to ISC units via `MQTT` or `Modbus`  
+  - On-demand or automated toggling of loads, battery modes, or generator operations  
+
+- 🔋 **Extra Power Sharing Capability**  
+  - If excess energy (from backup systems, solar, etc.) is detected, our system can facilitate intelligent **power sharing** between neighboring CBSs or connected **critical infrastructures (CIs)** such as hospitals or emergency shelters  
+  - This not only improves **energy resilience** but also contributes to **sustainable smart city infrastructure**
+
+---
+
+
 ---
 
 ## ⚙️ Core Modules and Components

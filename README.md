@@ -83,6 +83,9 @@ The `ISC` unit acts as the intelligent edge layer responsible for local energy c
 AIoT & Smart Energy Systems Researcher  
 Sydney, Australia
 
+### Under Supervision of 
+** Prof. Dr. Jahangir Hossain **
+
 ---
 
 ## 📬 Contact
